@@ -3,7 +3,7 @@ This repository contains Java Codes, written and practiced by me. The codes have
 
 ---
 
-## Navigate to .Java files
+## Navigate to .java files
 - open any folder
 - navigate to **src** folder
 - open any .java file
