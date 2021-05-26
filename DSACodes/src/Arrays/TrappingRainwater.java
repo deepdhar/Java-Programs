@@ -20,10 +20,10 @@ public class TrappingRainwater {
 	
 	
 	
-	//efficient solution
-	static int getWater2(int arr[]) {
-		
-	}
+//	//efficient solution
+//	static int getWater2(int arr[]) {
+//		
+//	}
 	
 	
 
