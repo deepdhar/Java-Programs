@@ -8,7 +8,7 @@ public class StockBuyAndSell {
 		int profit=0;
 		
 		for(int i=start; i<end; i++) {
-			for(int j=i+1; j<=end; j++) {
+			for(int j=i+1; j<end; j++) {
 				if(price[j]>price[i]) {
 					int curr_profit = price[j] - price[i] + maxProfit(price, start, i-1) + maxProfit(price, j+1, end);
 					profit = Math.max(profit, curr_profit);
@@ -34,8 +34,8 @@ public class StockBuyAndSell {
 	
 	
 	public static void main(String[] args) {
-		int arr[] = {1,5,3,8,12};
-		System.out.println(maxProfit2(arr));
+		int arr[] = {7,1,5,3,6,4};
+		System.out.println(maxProfit(arr,0,6));
 	}
 
 }
